@@ -11,6 +11,7 @@ class StudentsController < ApplicationController
   
   def activate 
      set_student 
+     render "activate"
   end 
 
   private
