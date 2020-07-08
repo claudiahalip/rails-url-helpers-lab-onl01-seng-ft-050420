@@ -3,4 +3,9 @@
 
 <p><%= link_to "Activate your status here", activate_path(@student)%> </p>
 
-
+<%= @student.active %>
+<% if @student.active == false %>
+<p>This student is currently inactive.</p>
+<% else %>
+<p>This student is currently active.</p>
+<% end %>
