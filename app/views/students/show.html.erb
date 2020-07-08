@@ -1,7 +1,6 @@
 <h1>SHOW</h1>
 <h1><%= @student.to_s %></h1>
 
-<p><%= link_to "Activate your status here", activate_path(@student)%> </p>
 
 <%= @student.active %>
 <% if @student.active == false %>
