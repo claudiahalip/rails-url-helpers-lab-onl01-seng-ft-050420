@@ -10,8 +10,8 @@ class StudentsController < ApplicationController
   end
   
   def activate_student 
-     set_student 
-     render "activate"
+    set_student 
+    render "activate"
   end 
 
   private
