@@ -8,3 +8,4 @@
 <% @student.active = false %>
 <% @student.save %>
 <% end %>
+<%controller.redirect_to student_path(@student) %>
